@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A83246EC1BAB362B009790E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A83246EB1BAB362B009790E7 /* main.m */; };
+		A83246EF1BAB362B009790E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A83246EE1BAB362B009790E7 /* AppDelegate.m */; };
+		A83246F51BAB362B009790E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A83246F31BAB362B009790E7 /* Main.storyboard */; };
+		A83246F71BAB362B009790E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A83246F61BAB362B009790E7 /* Assets.xcassets */; };
+		A83246FA1BAB362B009790E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A83246F81BAB362B009790E7 /* LaunchScreen.storyboard */; };
+		A83247051BAB362B009790E7 /* SAVGridViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A83247041BAB362B009790E7 /* SAVGridViewTests.m */; };
+		A83247101BAB362B009790E7 /* SAVGridViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A832470F1BAB362B009790E7 /* SAVGridViewUITests.m */; };
+		A832471F1BAB36A7009790E7 /* SAVCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A832471E1BAB36A7009790E7 /* SAVCollectionViewController.m */; settings = {ASSET_TAGS = (); }; };
+		A83247221BAB36B4009790E7 /* KRLCollectionViewGridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A83247211BAB36B4009790E7 /* KRLCollectionViewGridLayout.m */; settings = {ASSET_TAGS = (); }; };
+		A83247251BAB3DDD009790E7 /* SAVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A83247241BAB3DDD009790E7 /* SAVViewController.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A83247011BAB362B009790E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A83246DF1BAB362A009790E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A83246E61BAB362B009790E7;
+			remoteInfo = SAVGridView;
+		};
+		A832470C1BAB362B009790E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A83246DF1BAB362A009790E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A83246E61BAB362B009790E7;
+			remoteInfo = SAVGridView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A83246E71BAB362B009790E7 /* SAVGridView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAVGridView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A83246EB1BAB362B009790E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A83246ED1BAB362B009790E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A83246EE1BAB362B009790E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A83246F41BAB362B009790E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A83246F61BAB362B009790E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A83246F91BAB362B009790E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A83246FB1BAB362B009790E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A83247001BAB362B009790E7 /* SAVGridViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAVGridViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A83247041BAB362B009790E7 /* SAVGridViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAVGridViewTests.m; sourceTree = "<group>"; };
+		A83247061BAB362B009790E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A832470B1BAB362B009790E7 /* SAVGridViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAVGridViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A832470F1BAB362B009790E7 /* SAVGridViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAVGridViewUITests.m; sourceTree = "<group>"; };
+		A83247111BAB362B009790E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A832471D1BAB36A7009790E7 /* SAVCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAVCollectionViewController.h; sourceTree = "<group>"; };
+		A832471E1BAB36A7009790E7 /* SAVCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAVCollectionViewController.m; sourceTree = "<group>"; };
+		A83247201BAB36B4009790E7 /* KRLCollectionViewGridLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRLCollectionViewGridLayout.h; sourceTree = "<group>"; };
+		A83247211BAB36B4009790E7 /* KRLCollectionViewGridLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRLCollectionViewGridLayout.m; sourceTree = "<group>"; };
+		A83247231BAB3DDD009790E7 /* SAVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAVViewController.h; sourceTree = "<group>"; };
+		A83247241BAB3DDD009790E7 /* SAVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAVViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A83246E41BAB362B009790E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83246FD1BAB362B009790E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83247081BAB362B009790E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A83246DE1BAB362A009790E7 = {
+			isa = PBXGroup;
+			children = (
+				A83246E91BAB362B009790E7 /* SAVGridView */,
+				A83247031BAB362B009790E7 /* SAVGridViewTests */,
+				A832470E1BAB362B009790E7 /* SAVGridViewUITests */,
+				A83246E81BAB362B009790E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A83246E81BAB362B009790E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A83246E71BAB362B009790E7 /* SAVGridView.app */,
+				A83247001BAB362B009790E7 /* SAVGridViewTests.xctest */,
+				A832470B1BAB362B009790E7 /* SAVGridViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A83246E91BAB362B009790E7 /* SAVGridView */ = {
+			isa = PBXGroup;
+			children = (
+				A83246ED1BAB362B009790E7 /* AppDelegate.h */,
+				A83246EE1BAB362B009790E7 /* AppDelegate.m */,
+				A832471D1BAB36A7009790E7 /* SAVCollectionViewController.h */,
+				A832471E1BAB36A7009790E7 /* SAVCollectionViewController.m */,
+				A83247231BAB3DDD009790E7 /* SAVViewController.h */,
+				A83247241BAB3DDD009790E7 /* SAVViewController.m */,
+				A83247201BAB36B4009790E7 /* KRLCollectionViewGridLayout.h */,
+				A83247211BAB36B4009790E7 /* KRLCollectionViewGridLayout.m */,
+				A83246F31BAB362B009790E7 /* Main.storyboard */,
+				A83246F61BAB362B009790E7 /* Assets.xcassets */,
+				A83246F81BAB362B009790E7 /* LaunchScreen.storyboard */,
+				A83246FB1BAB362B009790E7 /* Info.plist */,
+				A83246EA1BAB362B009790E7 /* Supporting Files */,
+			);
+			path = SAVGridView;
+			sourceTree = "<group>";
+		};
+		A83246EA1BAB362B009790E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A83246EB1BAB362B009790E7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A83247031BAB362B009790E7 /* SAVGridViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				A83247041BAB362B009790E7 /* SAVGridViewTests.m */,
+				A83247061BAB362B009790E7 /* Info.plist */,
+			);
+			path = SAVGridViewTests;
+			sourceTree = "<group>";
+		};
+		A832470E1BAB362B009790E7 /* SAVGridViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A832470F1BAB362B009790E7 /* SAVGridViewUITests.m */,
+				A83247111BAB362B009790E7 /* Info.plist */,
+			);
+			path = SAVGridViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A83246E61BAB362B009790E7 /* SAVGridView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A83247141BAB362B009790E7 /* Build configuration list for PBXNativeTarget "SAVGridView" */;
+			buildPhases = (
+				A83246E31BAB362B009790E7 /* Sources */,
+				A83246E41BAB362B009790E7 /* Frameworks */,
+				A83246E51BAB362B009790E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SAVGridView;
+			productName = SAVGridView;
+			productReference = A83246E71BAB362B009790E7 /* SAVGridView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A83246FF1BAB362B009790E7 /* SAVGridViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A83247171BAB362B009790E7 /* Build configuration list for PBXNativeTarget "SAVGridViewTests" */;
+			buildPhases = (
+				A83246FC1BAB362B009790E7 /* Sources */,
+				A83246FD1BAB362B009790E7 /* Frameworks */,
+				A83246FE1BAB362B009790E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A83247021BAB362B009790E7 /* PBXTargetDependency */,
+			);
+			name = SAVGridViewTests;
+			productName = SAVGridViewTests;
+			productReference = A83247001BAB362B009790E7 /* SAVGridViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A832470A1BAB362B009790E7 /* SAVGridViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A832471A1BAB362B009790E7 /* Build configuration list for PBXNativeTarget "SAVGridViewUITests" */;
+			buildPhases = (
+				A83247071BAB362B009790E7 /* Sources */,
+				A83247081BAB362B009790E7 /* Frameworks */,
+				A83247091BAB362B009790E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A832470D1BAB362B009790E7 /* PBXTargetDependency */,
+			);
+			name = SAVGridViewUITests;
+			productName = SAVGridViewUITests;
+			productReference = A832470B1BAB362B009790E7 /* SAVGridViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A83246DF1BAB362A009790E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "savvy apps";
+				TargetAttributes = {
+					A83246E61BAB362B009790E7 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					A83246FF1BAB362B009790E7 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = A83246E61BAB362B009790E7;
+					};
+					A832470A1BAB362B009790E7 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = A83246E61BAB362B009790E7;
+					};
+				};
+			};
+			buildConfigurationList = A83246E21BAB362A009790E7 /* Build configuration list for PBXProject "SAVGridView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A83246DE1BAB362A009790E7;
+			productRefGroup = A83246E81BAB362B009790E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A83246E61BAB362B009790E7 /* SAVGridView */,
+				A83246FF1BAB362B009790E7 /* SAVGridViewTests */,
+				A832470A1BAB362B009790E7 /* SAVGridViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A83246E51BAB362B009790E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83246FA1BAB362B009790E7 /* LaunchScreen.storyboard in Resources */,
+				A83246F71BAB362B009790E7 /* Assets.xcassets in Resources */,
+				A83246F51BAB362B009790E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83246FE1BAB362B009790E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83247091BAB362B009790E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A83246E31BAB362B009790E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83247221BAB36B4009790E7 /* KRLCollectionViewGridLayout.m in Sources */,
+				A83246EF1BAB362B009790E7 /* AppDelegate.m in Sources */,
+				A832471F1BAB36A7009790E7 /* SAVCollectionViewController.m in Sources */,
+				A83246EC1BAB362B009790E7 /* main.m in Sources */,
+				A83247251BAB3DDD009790E7 /* SAVViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83246FC1BAB362B009790E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83247051BAB362B009790E7 /* SAVGridViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83247071BAB362B009790E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83247101BAB362B009790E7 /* SAVGridViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A83247021BAB362B009790E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A83246E61BAB362B009790E7 /* SAVGridView */;
+			targetProxy = A83247011BAB362B009790E7 /* PBXContainerItemProxy */;
+		};
+		A832470D1BAB362B009790E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A83246E61BAB362B009790E7 /* SAVGridView */;
+			targetProxy = A832470C1BAB362B009790E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A83246F31BAB362B009790E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A83246F41BAB362B009790E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A83246F81BAB362B009790E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A83246F91BAB362B009790E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A83247121BAB362B009790E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A83247131BAB362B009790E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A83247151BAB362B009790E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SAVGridView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.savvyapps.SAVGridView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A83247161BAB362B009790E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SAVGridView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.savvyapps.SAVGridView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A83247181BAB362B009790E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SAVGridViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.savvyapps.SAVGridViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SAVGridView.app/SAVGridView";
+			};
+			name = Debug;
+		};
+		A83247191BAB362B009790E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SAVGridViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.savvyapps.SAVGridViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SAVGridView.app/SAVGridView";
+			};
+			name = Release;
+		};
+		A832471B1BAB362B009790E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SAVGridViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.savvyapps.SAVGridViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SAVGridView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A832471C1BAB362B009790E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SAVGridViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.savvyapps.SAVGridViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SAVGridView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A83246E21BAB362A009790E7 /* Build configuration list for PBXProject "SAVGridView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A83247121BAB362B009790E7 /* Debug */,
+				A83247131BAB362B009790E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A83247141BAB362B009790E7 /* Build configuration list for PBXNativeTarget "SAVGridView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A83247151BAB362B009790E7 /* Debug */,
+				A83247161BAB362B009790E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A83247171BAB362B009790E7 /* Build configuration list for PBXNativeTarget "SAVGridViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A83247181BAB362B009790E7 /* Debug */,
+				A83247191BAB362B009790E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A832471A1BAB362B009790E7 /* Build configuration list for PBXNativeTarget "SAVGridViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A832471B1BAB362B009790E7 /* Debug */,
+				A832471C1BAB362B009790E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A83246DF1BAB362A009790E7 /* Project object */;
+}
